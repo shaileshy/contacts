@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact_list</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.js"></script>-->
+    <link rel="stylesheet" href="index.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.0.js"
+            integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+
+</head>
+<body>
+<div class="container col-sm-8 col-sm-offset-2 containt">
+    <header class="top">contacts</header>
+    <div class="col-sm-4 ">
+        <div class="col-sm-12 saved_contact"><span class="text_save_contact">Saved Contacts</span></div>
+    </div>
+    <div class="col-sm-7 col-sm-offset-1">
+        <button class="btn btn-primary col-sm-10 col-sm-offset-1 marginspace" type="button" id="add_button" >Add New Contacts</button><br/>
+        <div class="col-sm-12 marginspace" id="add_contact">
+            <form id="form">
+                <br/>
+                <div>First Name:<input class="col-sm-12 first_name marginspace" type="text" required></div><br/>
+                <div>Last Name:<input class="col-sm-12 last_name marginspace"type="text" required></div><br/>
+                <div>Mobile no:<input class="col-sm-12 mobile_number marginspace" type="number" required></div><br/>
+                <div>Email_Id:<input class="col-sm-12 email_id marginspace"type="email" required></div><br/>
+                <button class="col-sm-2 col-sm-offset-1 btn btn-primary " type="button" id="save_button">Save</button>
+                <button class="col-sm-2  col-sm-offset-1 btn btn-primary cancel" type="button">Cancel</button>
+            </form>
+            <button class="col-sm-2 col-sm-offset-1 btn btn-primary delete" type="button">Delete</button>
+            <button class="col-sm-2 col-sm-offset-1 btn btn-primary edit" type="button">Save</button>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
